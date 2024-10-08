@@ -1,0 +1,47 @@
+.top{
+    position: absolute;
+    top: 0%;
+    left: 03%;
+    transform:translate(-50%-50%);
+    height: 150px;
+    width: 330px;
+    border-radius:150px 150px 0 0; 
+    background-color:red ;
+}
+.contain{
+    height:350px;
+    width:350px ;
+    background-color:white;
+    border-radius: 50%;
+    top: 20%;
+    left:50;
+    position:absolute; 
+    border:3px solid ;
+} 
+.bottom{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    transform:translate(-50%-50%);
+    height: 150px;
+    width: 330px;
+    border-radius:0 0 150px 150px; 
+    background-color:blue ;
+}
+.middle{
+    
+        position: absolute;
+        transform:translate(-50%-50%);
+        height: 200px;
+        width: 330px;
+        border-radius:0 0 0 0; 
+        background-color:white ;
+        justify-content: center;
+        top: 110px;
+        right:10px;
+        text-align: center;
+        border-bottom-right-radius:50% ;
+        border-bottom-left-radius:50% ;
+        border-top-left-radius:20% ;
+        border-top-right-radius:20% ;
+}      
